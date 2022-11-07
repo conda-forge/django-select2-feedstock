@@ -17,13 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools_scm
-    - pytest-runner
-    - sphinx
   run:
-    - python >=3.6
-    - django >=2.2
+    - python >=3.8
+    - django >=3.2
     - django-appconf >=0.6.0
 
 test:
