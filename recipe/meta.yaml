@@ -20,7 +20,7 @@ requirements:
     - python >=3.8
     - setuptools_scm
     - flit >=3.2
-    - flit_scm
+    - flit-scm
     - wheel
   run:
     - python >=3.8
