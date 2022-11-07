@@ -19,6 +19,9 @@ requirements:
     - pip
     - python >=3.8
     - setuptools_scm
+    - flit_core >=3.2
+    - flit_scm
+    - wheel
   run:
     - python >=3.8
     - django >=3.2
