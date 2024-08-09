@@ -1,5 +1,5 @@
 {% set name = "django-select2" %}
-{% set version = "8.2.0" %}
+{% set version = "8.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 43ca01fecff1bd9ffaf87de90a4beca86fe801edd0c0102c3230c34f81490b9a
+  sha256: dc03524c1cf7ef970e8b3ab2de76ce3179e414254fa812d8e2d2f0ba6fa487ba
 
 build:
   number: 0
