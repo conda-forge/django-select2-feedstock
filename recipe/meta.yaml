@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - pip
-    - python {{ python_min }}.*
+    - python {{ python_min }}
     - setuptools
     - setuptools_scm
     - flit >=3.2
@@ -31,6 +31,8 @@ requirements:
     - django-appconf >=0.6.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - django_select2
 
