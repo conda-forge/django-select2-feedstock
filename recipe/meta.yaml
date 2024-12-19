@@ -27,8 +27,6 @@ requirements:
     - django-appconf >=0.6.0
   run:
     - python >={{ python_min }}
-    - __unix  # [unix]
-    - __win   # [win]
     - django >=3.2
     - django-appconf >=0.6.0
 
