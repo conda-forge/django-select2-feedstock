@@ -11,7 +11,7 @@ source:
   sha256: 9975a74f13f20468d07deae027672045f58e0d6d1983c305805ba40b16a0f0ec
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,11 +24,11 @@ requirements:
     - flit >=3.2
     - flit-scm
     - wheel
-    - django >=3.2
+    - django >=4.2
     - django-appconf >=0.6.0
   run:
     - python >={{ python_min }}
-    - django >=3.2
+    - django >=4.2
     - django-appconf >=0.6.0
 
 test:
