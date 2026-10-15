@@ -1,5 +1,5 @@
 {% set name = "django-select2" %}
-{% set version = "8.4.8" %}
+{% set version = "8.6.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 592e52effff2b5850cb7c98b265715b6704fb784699c4aedddfdd8ae1ffa1e81
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 8d6ae34cbb027eff8e0ccf1143b4886564e22f6cbbc8c475a3b9dbe05f6966fa
 
 build:
   number: 0
