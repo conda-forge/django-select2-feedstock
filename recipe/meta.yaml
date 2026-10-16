@@ -1,6 +1,6 @@
 {% set name = "django-select2" %}
 {% set version = "8.6.1" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.14" %}
 
 package:
   name: {{ name|lower }}
