@@ -24,12 +24,12 @@ requirements:
     - flit >=3.2
     - flit-scm
     - wheel
-    - django >=4.2
-    - django-appconf >=0.6.0
+    - django >=5.2.13
+    - django-appconf >=1.2
   run:
     - python >={{ python_min }}
-    - django >=4.2
-    - django-appconf >=0.6.0
+    - django >=5.2.13
+    - django-appconf >=1.2
 
 test:
   requires:
